@@ -54,7 +54,7 @@ namespace TodoApi.Tests
         {
             var datarepo = new Mock<IDataRepo>();
             List<Note> notes = GetMockDatabase();
-            datarepo.Setup(d => d.GetAllNotes()).Returns(notes);
+            datarepo.Setup(d => d.RetrieveAll()).Returns(notes);
             TodoController todoController = new TodoController(datarepo.Object);
             var result = todoController.Get();
             Assert.NotNull(result);
@@ -67,7 +67,7 @@ namespace TodoApi.Tests
             var datarepo = new Mock<IDataRepo>();
             List<Note> notes = GetMockDatabase();
             int id = 3;
-            datarepo.Setup(d => d.GetNote(id)).Returns(notes.Find(n => n.NoteId == id));
+            datarepo.Setup(d => d.RetrieveById(id)).Returns(notes.Find(n => n.NoteId == id));
             TodoController todoController = new TodoController(datarepo.Object);
             var result = todoController.Get(id);
             Assert.Null(result.Value);
@@ -77,7 +77,7 @@ namespace TodoApi.Tests
              var datarepo = new Mock<IDataRepo>();
              List<Note> notes = GetMockDatabase();
              int id = 1;
-             datarepo.Setup(d => d.GetNote(id)).Returns(notes.Find(n => n.NoteId == id));
+             datarepo.Setup(d => d.RetrieveById(id)).Returns(notes.Find(n => n.NoteId == id));
              TodoController todoController = new TodoController(datarepo.Object);
              var result = todoController.Get(id);
              Assert.NotNull(result);
