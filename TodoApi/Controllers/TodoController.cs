@@ -20,7 +20,7 @@ namespace TodoApi.Controllers
         }
         // GET api/todo
         [HttpGet]
-        public ActionResult<IEnumerable<Note>> Get()
+        public IActionResult Get()
         {
             var notes = dataRepo.RetrieveAll();
             if(notes.Count > 0){
@@ -33,7 +33,7 @@ namespace TodoApi.Controllers
 
         // GET api/todo/5
         [HttpGet("{id:int}")]
-        public ActionResult<Note> Get(int id)
+        public IActionResult Get(int id)
         {
             var noteById = dataRepo.RetrieveById(id);
             if (noteById != null)
@@ -47,7 +47,7 @@ namespace TodoApi.Controllers
         }
 
         [HttpGet("{text}")]
-        public ActionResult<Note> Get(string text,[FromQuery] string type)
+        public IActionResult Get(string text,[FromQuery] string type)
         {
             List<Note> listWithText = dataRepo.RetrieveNote(text, type);
             if(listWithText == null){

@@ -13,9 +13,11 @@ namespace TodoApi.Tests
     public class TodoApiTests
     {
 
-        private List<Note> GetMockDatabase(){
+        private List<Note> GetMockDatabase()
+        {
             return new List<Note>{
-                new Note{
+                new Note
+                {
                     NoteId = 1,
                     Title = "To do list",
                     CheckList = new List<CheckListItem>{
@@ -88,7 +90,11 @@ namespace TodoApi.Tests
              TodoController todoController = new TodoController(datarepo.Object);
              var result = todoController.Get(id);
              Assert.NotNull(result);
-             Assert.Equal(id, result.Value.NoteId);
+             var objResult = result as OkObjectResult;
+             Assert.NotNull(objResult);
+             var note = objResult.Value as Note;
+             Assert.NotNull(note);
+             Assert.Equal(id, note.NoteId);
          }
         [Fact]
         public void DeleteNote_Positive()

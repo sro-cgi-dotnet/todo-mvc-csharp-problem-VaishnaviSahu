@@ -1,0 +1,17 @@
+C:\Users\Administrator\Desktop\todo-mvc-csharp-problem-VaishnaviSahu\TodoTest\bin\Debug\netcoreapp2.1\xunit.runner.visualstudio.dotnetcore.testadapter.dll
+C:\Users\Administrator\Desktop\todo-mvc-csharp-problem-VaishnaviSahu\TodoTest\bin\Debug\netcoreapp2.1\xunit.runner.reporters.netcoreapp10.dll
+C:\Users\Administrator\Desktop\todo-mvc-csharp-problem-VaishnaviSahu\TodoTest\bin\Debug\netcoreapp2.1\xunit.runner.utility.netcoreapp10.dll
+C:\Users\Administrator\Desktop\todo-mvc-csharp-problem-VaishnaviSahu\TodoTest\bin\Debug\netcoreapp2.1\TodoTest.deps.json
+C:\Users\Administrator\Desktop\todo-mvc-csharp-problem-VaishnaviSahu\TodoTest\bin\Debug\netcoreapp2.1\TodoTest.runtimeconfig.json
+C:\Users\Administrator\Desktop\todo-mvc-csharp-problem-VaishnaviSahu\TodoTest\bin\Debug\netcoreapp2.1\TodoTest.runtimeconfig.dev.json
+C:\Users\Administrator\Desktop\todo-mvc-csharp-problem-VaishnaviSahu\TodoTest\bin\Debug\netcoreapp2.1\TodoTest.dll
+C:\Users\Administrator\Desktop\todo-mvc-csharp-problem-VaishnaviSahu\TodoTest\bin\Debug\netcoreapp2.1\TodoTest.pdb
+C:\Users\Administrator\Desktop\todo-mvc-csharp-problem-VaishnaviSahu\TodoTest\bin\Debug\netcoreapp2.1\TodoApi.dll
+C:\Users\Administrator\Desktop\todo-mvc-csharp-problem-VaishnaviSahu\TodoTest\bin\Debug\netcoreapp2.1\TodoApi.pdb
+C:\Users\Administrator\Desktop\todo-mvc-csharp-problem-VaishnaviSahu\TodoTest\obj\Debug\netcoreapp2.1\TodoTest.csprojAssemblyReference.cache
+C:\Users\Administrator\Desktop\todo-mvc-csharp-problem-VaishnaviSahu\TodoTest\obj\Debug\netcoreapp2.1\TodoTest.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\Desktop\todo-mvc-csharp-problem-VaishnaviSahu\TodoTest\obj\Debug\netcoreapp2.1\TodoTest.AssemblyInfoInputs.cache
+C:\Users\Administrator\Desktop\todo-mvc-csharp-problem-VaishnaviSahu\TodoTest\obj\Debug\netcoreapp2.1\TodoTest.AssemblyInfo.cs
+C:\Users\Administrator\Desktop\todo-mvc-csharp-problem-VaishnaviSahu\TodoTest\obj\Debug\netcoreapp2.1\TodoTest.csproj.CopyComplete
+C:\Users\Administrator\Desktop\todo-mvc-csharp-problem-VaishnaviSahu\TodoTest\obj\Debug\netcoreapp2.1\TodoTest.dll
+C:\Users\Administrator\Desktop\todo-mvc-csharp-problem-VaishnaviSahu\TodoTest\obj\Debug\netcoreapp2.1\TodoTest.pdb
